@@ -16,7 +16,7 @@ function sendNotification(title, body, url) {
     } else {
         enableNotification = true;
         var notification = new Notification(title, {
-            icon: "./assets/agua-mineral.png",
+            icon: "./assets/img/water.png",
             body: body,
         });
 
@@ -24,6 +24,6 @@ function sendNotification(title, body, url) {
             window.open(url);
         };
 
-        setTimeout(notification.close.bind(notification), 5000);
+        setTimeout(notification.close.bind(notification), 500);
     }
 }

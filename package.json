@@ -1,0 +1,23 @@
+{
+  "name": "water-reminder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FeGroders/desktop-water-reminder.git"
+  },
+  "author": "Fernando Groders",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FeGroders/desktop-water-reminder/issues"
+  },
+  "homepage": "https://github.com/FeGroders/desktop-water-reminder#readme",
+  "devDependencies": {
+    "electron": "^13.2.1"
+  }
+}
